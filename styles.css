@@ -1,0 +1,70 @@
+#container {
+    position: relative;
+    min-height: 100vh;
+}
+#header-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-nav-left {
+    display: flex;
+    
+}
+
+#header-nav-right  {
+    display: flex;      
+    margin-left: auto;     
+}
+
+.nav-link {
+    size: auto;
+    padding: 1em;
+}
+
+main {
+    grid-area: "main";
+    display: flex;  
+    flex-wrap: wrap;
+  
+}
+
+#logo-share{
+    display: block;
+    position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+
+#share-btn {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#footer-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr repeat(3, auto);  
+}
+
+
+#carbon-neutral {
+    display: flex;
+    justify-content: center;
+}
