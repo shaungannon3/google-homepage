@@ -4,108 +4,68 @@
         <link rel = "stylesheet" href = "styles.css"/>
     </head>
     <body>
-        <div id = "container">
-            <!-- HEADER SECTION -->
-            <header id = "header-container">
-                <navbar id = "header-nav-container">
-                    <div id = "header-nav-left">
-                        <div class = "nav-list">
-                            <ul>
-                                <li><a href = "">About</a></li>
-                                <li><a href = "">Store</a></li>
-                            </ul>
-                        </div>
-                    </div>
+        <!-- HEADER SECTION -->
+        <header>
+            <navbar id = "header-nav-container">
+                <ul>
+                    <li id = "nav-1"><a class = "nav-item" href = "">About</a></li>
+                    <li id = "nav-2"><a class = "nav-item" href = "">Store</a></li>
+                    <li id = "nav-3"><a class = "nav-item" href = "">Gmail</a></li>
+                    <li id = "nav-4"><a class = "nav-item" href = "">Images</a></li>
+                    <li id = "nav-5">
+                        <a href = "">
+                            <img id = "google-product-btn" src = "google-product-btn.png" alt = "store"> 
+                        </a> 
+                    </li>
+                    <li id = "nav-6">
+                        <button id = "sign-in-btn">Sign In</button>
+                    </li>
+                </ul>
+            </navbar>
+        </header>
 
-                    <div id = "header-nav-right">
-                        <div class = "nav-list">
-                            <ul>
-                                <li><a href = "">Gmail</a></li>
-                                <li><a href = "">Images</a></li>
-                                <li>
-                                    <a href = ""></a>
-                                        <img id = "google-product-btn" src = "google-product-btn.png" alt = "store"> 
-                                    </a> 
-                                </li>
-                                <li>
-                                    <form action="https://google.com">
-                                        <button id = "sign-in-btn">Sign In</button>
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
+        
+        <content>
+            <main>
+                <div id = "logo-container">
+                    <div id = "google-logo">
+                        <img src = "google.png" alt = "Google Logo">
+                    </div>    
+                    <div id = "share-btn">
+                        <a href = "">
+                            <img id = "share-btn-img" src = "share-btn.png" alt = "share button"> 
+                        </a> 
                     </div>
-                </navbar>
-            </header>
-            <!-- CONTENT SECTION -->
-            <content>
-                <main>
-                    <div id = "logo-container">
-                        <div id = "google-logo">
-                            <img src = "google.png" alt = "Google Logo">
-                        </div>    
-                        <div id = "share-btn-container">
-                            <a href = "">
-                                <img id = "share-btn" src = "share-btn.png" alt = "share button"> 
-                            </a> 
-                        </div>
+                </div>
+                <div id = "search-bar-container">
+                    <div id = "search-box">
+                        <img id = "microscope-img" src = "microscope.png" alt = "microscope">
+                        <input id = "search-bar" type = "text"> </input>
                     </div>
-                    <div id = "search-bar-container">
-                        <div id = "search-box">
-                            <img id = "microscope" src = "microscope.png" alt = "microscope">
-                            <form id = "search">
-                                <input id = "search-bar" type = "text"> </input>
-                            </form>
-                        </div>
-                    </div>
+                </div>
 
-                    <div id = "search-btn-container">
-                        <form>
-                            <button id = "google-btn">Google Search</button>
-                        </form>
-                        <form>
-                            <button id = "lucky-btn">I'm Feeling Lucky</button>
-                        </form>     
-                    </div>
-                    <div id = "behind-scenes-container">
-                        <img src = "" alt = "camera">
-                        <div class = "behind-scenes-link">
-                            <a href = "">Go behind the scenes to see how Search works</a>
-                        </div>
-                    </div>
-                -->
-                                    
-                </main>
-            </content>
-            <!-- FOOTER SECTION -->
-            <footer>
-                <navbar id = "footer-nav-container">
-                    <div id = "footer-nav-left">
-                        <div class = "nav-list">
-                            <ul>
-                                <li> <a href = "">Advertising</a></li>
-                                <li><a href = "">Business</a></li>
-                                <li><a href = "">How Search works</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id = "footer-nav-center">
-                        <img id = "leaf" src = "leaf.png" id = "neutral-leaf" alt = "leaf">
-                        <a id = "carbon-neutral" href = "">Carbon neutral since 2007</a>                     
-                    </div>
-                            
-                    <div id = "footer-nav-right">
-                        <div class = "nav-list">
-                            <ul>
-                                <li><a href = "">Privacy</a></li>
-                                <li><a href = "">Terms</a></li>
-                                <li><a href = "">Settings</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                       
-                </navbar>
-            </footer>
-        </div>
+                <div id = "search-btn-container">
+                    <form>
+                        <button id = "search-btn">Google Search</button>
+                    </form>
+                    <form>
+                        <button id = "search-btn">I'm Feeling Lucky</button>
+                    </form>     
+            </main>
+        </content>
+
+        <footer>
+            <navbar id = "footer-nav-box">
+                <ul id = "footer-nav-container">
+                    <li> <a class = "nav-item-btm" href = "">Advertising</a></li>
+                    <li><a class = "nav-item-btm" href = "">Business</a></li>
+                    <li><a class = "nav-item-btm" href = "">How Search works</a></li>
+                    <li id = "carbon-neutral"> <img id = "leaf" src = "leaf.png" alt = "leaf"> <a class = "nav-item-btm" href = "">Carbon neutral since 2007</a></li>                                         
+                    <li><a class = "nav-item-btm" href = "">Privacy</a></li>
+                    <li><a class = "nav-item-btm" href = "">Terms</a></li>
+                    <li><a class = "nav-item-btm" href = "">Settings</a></li>
+                </ul>
+            </navbar>
+        </footer>
     </body>
 </html>
