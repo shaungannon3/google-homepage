@@ -328,7 +328,7 @@ writing-mode: horizontal-tb;
 
 #footer-nav-container > li
 {
-    flex-basis: 7%;
+    flex-basis: 8%;
     display: flex;
 }
 
@@ -354,4 +354,17 @@ writing-mode: horizontal-tb;
     white-space: nowrap;
 }
 
+@media (max-width: 800px) {
+    #carbon-neutral {
+        order: 1;
+        flex-basis: 100%;
+        justify-content: flex-start;
+    }
+
+    #footer-nav-container > li
+{
+    flex-basis: 50%;
+    display: flex;
+}
+}
 
